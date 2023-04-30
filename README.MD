@@ -55,3 +55,11 @@ This project uses the following dependencies:
 - Jackson for JSON parsing and serialization
 
 Please ensure you have the necessary dependencies and configurations set up in your project to use the provided code.
+
+## Docker Image
+
+The docker image can be found here: https://hub.docker.com/repository/docker/shihabal3amri/byanat-demo/general
+
+## Deployed Demo
+- Get all towers: `GET http://ec2-15-185-36-201.me-south-1.compute.amazonaws.com:8080/cell-tower/towers`
+- Get towers within 5km of a specific latitude and longitude: `GET http://ec2-15-185-36-201.me-south-1.compute.amazonaws.com:8080/cell-tower/towers?latitude=32.69783333&longitude=-116.9341944152&range=5`
